@@ -1,0 +1,52 @@
+<html>
+<head>
+  <link rel="stylesheet" href="index.css">
+  <script>
+    var min = 1;
+    var max = 100;
+    var b = Math.floor(min + Math.random() * (max - min + 1));
+
+    function show() {
+      var i = parseInt(document.getElementById('enter').value);
+      var ansElement = document.getElementById('ans');
+      var sta;
+
+      if (isNaN(i)) {
+        sta = "Please enter a valid number.";
+      } else if (i === b) {
+        sta = "Congratulations! You guessed the correct number.";
+      } else if (i > b) {
+        sta = "Try again. The number is smaller than " + i + ".";
+      } else {
+        sta = "Try again. The number is greater than " + i + ".";
+      }
+
+      ansElement.value = sta;
+    }
+
+      function rev()
+      {
+        document.getElementById('new').value = "The number is "+b
+      }
+
+  </script>
+  <title>Document</title>
+</head>
+<body bgcolor="red">
+  <p>..::&nbspGuess the right number&nbsp::..</p>
+  <p>Enter any number between 1 to 100</p>
+  <form>
+    <center>
+      <div class="banner">
+        <input type="text" id="enter" class="ban" placeholder="Enter number here which you guess.." autocomplete="off"><br>
+        <input type="button" value="Enter" onclick="show()" class="butn"><br>
+        <input type="text" id="ans" class="bar">
+        <p>If you want to give up then click below..!</p>
+        <input type="button" value="click" class="but" onclick="rev()"><br>
+        <input type="text" id="new" class="barr">
+
+      </div>
+    </center>
+  </form> 
+</body>
+</html>

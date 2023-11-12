@@ -1,0 +1,89 @@
+*::selection{
+  color: white;
+  background-color: black;
+}
+
+p{
+  font-size: 50px;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+.ban{
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+  height: 40px;
+  width: 30%;
+  border: none;
+  border-radius: 30px;
+  
+}
+
+.butn{
+  height: 50px;
+  width: 80px;
+  font-size: 20px;
+  border: none;
+  border-radius: 30px;
+  color: black;
+  transition: 0.3s;
+  margin-top: 50px;
+  
+}
+
+.but{
+  height: 50px;
+  width: 80px;
+  font-size: 20px;
+  border: none;
+  border-radius: 30px;
+  color: black;
+  transition: 0.3s;
+  margin-top: 20px;
+  
+}
+
+.but:hover{
+  height: 55px;
+  width: 90px;
+  border-radius: 25px;
+  color: white;
+  background-color: black;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.butn:hover{
+  height: 55px;
+  width: 90px;
+  border-radius: 25px;
+  color: white;
+  background-color: black;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.bar{
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+  height: 40px;
+  width: 40%;
+  border: none;
+  border-radius: 30px;
+  margin-top: 50px;
+  
+}
+
+.barr{
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+  height: 40px;
+  width: 20%;
+  border: none;
+  border-radius: 30px;
+  margin-top: 50px;
+}
